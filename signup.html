@@ -1,0 +1,215 @@
+<html lang="ar" dir="rtl">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+
+        </script>
+
+<style>
+
+</style>
+
+</head>
+<title>
+    التسجيل الدخول
+</title>
+
+<body>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <form id="msform">
+                <fieldset>
+                    <h2 class="fs-title">المعلومات الأساسية</h2>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label class="form-label"> اسم الطفل كاملا </label>
+                            <input type="text" class="form-control"  placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                يرجى إدخال الاسم
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label class="form-label">تاريخ الميلاد بالميلادي</label>
+                            <input type="text" class="form-control"  placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                يرجى إدخال التاريخ
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label  class="form-label"> اسم الأم </label>
+                            <input type="text" class="form-control" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                يرجى إدخال الاسم
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label class="form-label">رقم التواصل</label>
+                            <input type="text" class="form-control" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                يرجى إدخال رقم التواصل
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label class="form-label"> اسم الأب </label>
+                            <input type="text" class="form-control" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                يرجى إدخال الاسم
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label class="form-label">رقم التواصل</label>
+                            <input type="text" class="form-control" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                يرجى إدخال رقم التواصل
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label class="form-label"> البريد الالكتروني للأم </label>
+                            <input type="text" class="form-control" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                يرجى إدخال البريد الالكتروني
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label class="form-label"> البريد الالكتروني للأب </label>
+                            <input type="text" class="form-control" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                يرجى إدخال البريد الالكتروني
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label class="form-label"> البريد الالكتروني للأم </label>
+                            <input type="text" class="form-control" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                يرجى إدخال البريد الالكتروني
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <label class="form-label"> البريد الالكتروني للأب </label>
+                            <input type="text" class="form-control" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                يرجى إدخال البريد الالكتروني
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <div class="my-3">
+                        <label  class="form-label"> يعيش الطفل مع </label>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" checked
+                                required>
+                            <label class="form-check-label" for="credit">الأم </label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" required>
+                            <label class="form-check-label" for="cash">الأب</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" required>
+                            <label class="form-check-label" for="paypal">مع كلاهما</label>
+                        </div>
+                    </div>
+                    <input type="button" name="next" class="next action-button" value="Next"/>
+                </fieldset>
+                <fieldset>
+                    <h2 class="fs-title">معلومات صحية عن الطفل</h2>
+                    <h4 class="mb-3"></h4>
+                    <div class="my-3">
+                        <label  class="form-label"> هل يعاني الطفل من أي نوع من أنواع الحساسية أو الأمراض المزمنة </label>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" checked
+                                required>
+                            <label class="form-check-label" for="credit">نعم </label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" required>
+                            <label class="form-check-label" for="cash">لا</label>
+                        </div>
+                    </div>
+                    
+                    <div class="my-3">
+                        <label  class="form-label"> هل يأخد الطفل أدوية </label>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" checked
+                                required>
+                            <label class="form-check-label" for="credit">نعم </label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" required>
+                            <label class="form-check-label" for="cash">لا</label>
+                        </div>
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label class="form-label"> المستشفى الذي يتابع فيه الطفل </label>
+                            <input type="text" class="form-control" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                                يرجى إدخال  اسم المستشفى
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-3">
+                        <label class="form-label"> التصرف المفضل في حالة اصابة طفلك لاقدر الله </label>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" checked
+                                required>
+                            <label class="form-check-label" for="credit">إبلاغ الأهل </label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" required>
+                            <label class="form-check-label" for="cash">تصرف المركز بما يتناسب مع الموقف مباشرة</label>
+                        </div>
+                    </div>
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    <input type="button" name="next" class="next action-button" value="Next" />
+                </fieldset>
+                <fieldset>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label class="form-label"> ارقام للتواصل في حالة الطوارئ </label>
+                            <input type="text" class="form-control" placeholder="" value="" required>
+                            <div class="invalid-feedback">
+                             يرجى إدخال ارقام للتواصل 
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="fs-subtitle">موافقة وليّ الأمر</h3>
+                    <label class="form-label"> أوافق على تصوير ابني ونشر الصور في حسابات المركز بمواقع التواصل الإجتماعي </label>
+                    <div class="my-3">
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" checked
+                                required>
+                            <label class="form-check-label" for="credit">نعم </label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" required>
+                            <label class="form-check-label" for="cash">لا</label>
+                        </div>
+                    </div>
+                    <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                    <input type="submit" name="submit" class="submit action-button" value="Submit" />
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+
+
+</html>
